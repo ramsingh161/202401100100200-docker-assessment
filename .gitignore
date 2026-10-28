@@ -1,0 +1,21 @@
+
+# Local environment secrets
+.env
+.env.*
+
+# Keep the example configuration tracked
+!.env.example
+
+# Cosign private signing keys
+*.key
+cosign.key
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local logs and editor files
+*.log
+.vscode/
